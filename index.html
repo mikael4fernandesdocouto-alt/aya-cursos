@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>document.documentElement.classList.add('js');</script>
+<meta name="theme-color" content="#FFFBEC">
+<meta name="description" content="AYA Cursos: 15 experiências digitais em autoconhecimento, equilíbrio e terapias integrativas. Numerologia, Tarô, Yogaterapia, Chakras, Ayurveda, Florais e mais.">
+<title>AYA Cursos · Conhecimento que enraíza</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..600&family=Instrument+Sans:ital,wght@0,400..700;1,400..600&display=swap">
+<link rel="stylesheet" href="assets/css/styles.css">
+<meta property="og:type" content="website">
+<meta property="og:title" content="AYA Cursos · Conhecimento que enraíza">
+<meta property="og:description" content="Quinze formações digitais em autoconhecimento, equilíbrio e terapias integrativas.">
+<meta property="og:url" content="https://ayacursos.com.br/">
+<meta property="og:image" content="assets/img/hero-alt.jpg">
+</head>
+<body>
+<a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+<header class="site-header" id="siteHeader">
+  <div class="shell site-header__inner">
+    <a class="brand" href="#inicio" aria-label="AYA Cursos Digitais, início">
+      <svg class="brand__mark" viewBox="0 0 100 100" fill="none" aria-hidden="true">
+        <path d="M50 76C50 58 51 40 50 20c-9 12-16 25-13 38 2 9 6 14 13 18Z" stroke="currentColor" stroke-width="2.2"/>
+        <path d="M50 76c6-18 15-31 28-43 0 17-7 33-28 43Z" stroke="currentColor" stroke-width="2.2"/>
+        <path d="M50 76c-6-18-15-31-28-43 0 17 7 33 28 43Z" stroke="currentColor" stroke-width="2.2"/>
+        <path d="M50 76c13-8 26-11 39-11-7 13-21 20-39 11Z" stroke="currentColor" stroke-width="2.2"/>
+        <path d="M50 76c-13-8-26-11-39-11 7 13 21 20 39 11Z" stroke="currentColor" stroke-width="2.2"/>
+      </svg>
+      <span class="brand__copy">
+        <span class="brand__name">AYA</span>
+        <span class="brand__sub">Cursos Digitais</span>
+      </span>
+    </a>
+
+    <nav class="nav" id="primaryNav" aria-label="Navegação principal">
+      <a class="nav__link" href="#cursos">Cursos</a>
+      <a class="nav__link" href="#experiencia">A experiência</a>
+      <a class="nav__link" href="#equipe">Equipe</a>
+      <a class="nav__link" href="#contato">Contato</a>
+      <a class="nav__cta" href="https://wa.me/5541999168655?text=Ol%C3%A1%2C%20vim%20pelo%20site%20AYA%20Cursos%20e%20quero%20saber%20mais." target="_blank" rel="noopener">
+        Falar com a AYA
+      </a>
+    </nav>
+
+    <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="primaryNav" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="conteudo">
+  <section class="hero" id="inicio">
+    <div class="hero__inner">
+      <div class="hero__copy">
+        <p class="hero__eyebrow">
+          <span class="hero__eyebrow-dot" aria-hidden="true"></span>
+          AYA Terapias Integradas · Curitiba
+        </p>
+
+        <h1 class="hero__title">
+          <span class="hero__title-line">Conhecimento</span>
+          <span class="hero__title-line hero__title-line--italic">que enraíza.</span>
+        </h1>
+
+        <p class="hero__lead">
+          Quinze formações digitais em autoconhecimento, equilíbrio e terapias
+          integrativas. Para estudar onde você estiver, no seu tempo e no seu ritmo.
+        </p>
+
+        <div class="hero__actions">
+          <a class="btn btn--solid" href="#cursos">Explorar as 15 experiências</a>
+          <a class="btn btn--ghost" href="https://wa.me/5541999168655?text=Ol%C3%A1%2C%20vim%20pelo%20site%20AYA%20Cursos%20e%20quero%20saber%20mais." target="_blank" rel="noopener">Falar com a AYA</a>
+        </div>
+
+        <dl class="hero__facts">
+          <div class="hero__fact">
+            <dd>15</dd>
+            <dt>experiências digitais</dt>
+          </div>
+          <div class="hero__fact">
+            <dd>3</dd>
+            <dt>caminhos de estudo</dt>
+          </div>
+          <div class="hero__fact">
+            <dd>100%</dd>
+            <dt>no seu ritmo</dt>
+          </div>
+        </dl>
+      </div>
+
+      <figure class="hero__media" id="heroMedia">
+        <video class="hero__video" id="heroVideo" poster="assets/img/hero-poster.jpg" muted loop playsinline preload="metadata" aria-hidden="true">
+          <source src="assets/video/hero.mp4" type="video/mp4">
+        </video>
+        <div class="hero__veil" aria-hidden="true"></div>
+
+        <p class="hero__caption">Estudo, prática e presença</p>
+
+        <button class="hero__motion" id="toggleHeroVideo" type="button" aria-label="Pausar vídeo de fundo" data-state="paused">
+          <svg class="hero__motion-pause" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M9 6v12M15 6v12" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+          </svg>
+          <svg class="hero__motion-play" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M9.5 6.8v10.4L18 12 9.5 6.8Z" fill="currentColor"/>
+          </svg>
+        </button>
+      </figure>
+    </div>
+  </section>
+
+  <section class="manifesto" id="experiencia">
+    <div class="shell manifesto__grid">
+      <div class="manifesto__title">
+        <h2 class="display">Estudar também é um gesto de cuidado.</h2>
+      </div>
+      <div class="manifesto__body">
+        <p class="manifesto__lead">
+          A AYA reúne cursos, jornadas e ferramentas digitais para quem deseja
+          compreender melhor a si, o corpo e os ciclos da vida. Você escolhe o
+          caminho, organiza o ritmo e acessa o conteúdo de onde estiver.
+        </p>
+        <ul class="benefits" role="list">
+          <li class="benefit">
+            <span class="benefit__mark" aria-hidden="true"></span>
+            <h3>100% digital</h3>
+            <p>Celular, tablet ou computador, conforme a experiência escolhida.</p>
+          </li>
+          <li class="benefit">
+            <span class="benefit__mark" aria-hidden="true"></span>
+            <h3>No seu ritmo</h3>
+            <p>Comece quando puder e retome de onde parou.</p>
+          </li>
+          <li class="benefit">
+            <span class="benefit__mark" aria-hidden="true"></span>
+            <h3>Conteúdo integrado</h3>
+            <p>Yoga, meditação, MTC, arte, escrita, simbolismo e presença.</p>
+          </li>
+          <li class="benefit">
+            <span class="benefit__mark" aria-hidden="true"></span>
+            <h3>Uma só AYA</h3>
+            <p>Caminhos diferentes sob a mesma visão de cuidado e aprendizado.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="catalog" id="cursos">
+    <div class="shell">
+      <div class="catalog__head">
+        <div class="catalog__intro">
+          <h2 class="display">Três caminhos,<br>quinze experiências.</h2>
+          <p>
+            Escolha pelo momento de vida, pelo interesse ou pela prática que
+            deseja aprofundar. Todos os cursos são digitais e têm página própria
+            com o programa completo.
+          </p>
+        </div>
+
+        <div class="catalog__tools">
+          <div class="search" role="search">
+            <svg class="search__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <circle cx="11" cy="11" r="6.5" stroke="currentColor" stroke-width="1.5"/>
+              <path d="m16 16 4.5 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            <label class="visually-hidden" for="courseSearch">Buscar cursos</label>
+            <input id="courseSearch" name="busca" type="search" placeholder="Busque por Yoga, Numerologia, Tarô, Chakras…" autocomplete="off" spellcheck="false">
+            <button class="search__clear" id="clearSearch" type="button" aria-label="Limpar busca" hidden>
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </button>
+          </div>
+
+          <div class="catalog__filters">
+            <div class="filters" role="group" aria-label="Filtrar cursos por caminho">
+              <button class="filter is-active" type="button" data-filter="all" aria-pressed="true">Todos</button>
+              <button class="filter" type="button" data-filter="autoconhecimento" aria-pressed="false">Autoconhecimento</button>
+              <button class="filter" type="button" data-filter="equilibrio" aria-pressed="false">Equilíbrio</button>
+              <button class="filter" type="button" data-filter="formacao" aria-pressed="false">Formações práticas</button>
+            </div>
+            <p class="catalog__count" id="searchCount" aria-live="polite">15 experiências</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="catalog__groups" id="courseGrid">
+
+        <section class="group" data-group="autoconhecimento" aria-labelledby="grupo-autoconhecimento">
+          <div class="group__head">
+            <div>
+              <h3 class="group__title" id="grupo-autoconhecimento">Autoconhecimento e desenvolvimento pessoal</h3>
+              <p class="group__desc">Jornadas para ampliar consciência, expressão e compreensão dos próprios ciclos.</p>
+            </div>
+            <p class="group__count">6 cursos</p>
+          </div>
+
+          <div class="grid">
+            <article class="course" data-category="autoconhecimento" data-search="tarô tarot curso de tarô arcanos maiores arcanos menores marselha mitológico mitologico thoth símbolos simbolos arquétipos arquetipos tiragens interpretação interpretacao intuição intuicao leitura de cartas autoconhecimento 100 digital">
+              <a class="course__media" href="https://landpage-taro.netlify.app" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+                <img src="assets/img/tarot.jpg" alt="" width="1200" height="800" loading="lazy">
+              </a>
+              <div class="course__body">
+                <p class="course__kicker"><span>Curso digital</span><span>Tarô AYA</span></p>
+                <h4 class="course__title"><a href="https://landpage-taro.netlify.app" target="_blank" rel="noopener">Curso de Tarô AYA</a></h4>
+                <p class="course__desc">Uma formação para compreender o Tarô com profundidade e construir leituras mais sensíveis, intuitivas e conscientes. Estude a linguagem dos Arcanos, seus símbolos e arquétipos, com segurança para interpretar as cartas no seu ritmo.</p>
+                <ul class="course__facts" role="list">
+                  <li>9 módulos · 84 aulas</li>
+                  <li>Marselha · Mitológico · Thoth</li>
+                  <li>Bônus e certificado</li>
+                </ul>
+                <a class="course__link" href="https://landpage-taro.netlify.app" target="_blank" rel="noopener">Conhecer o curso</a>
+              </div>
+            </article>
+
+            <article class="course" data-category="autoconhecimento" data-search="curarte habitar a si arteterapia yoga escrita mandalas cartas arquétipo arquetipo 7 portais 21 dias autocuidado autoconhecimento">
+              <a class="course__media" href="https://curarte-habitar-a-si-landingpage.netlify.app" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+                <img src="assets/img/curarte.jpg" alt="" width="1200" height="800" loading="lazy">
+              </a>
+              <div class="course__body">
+                <p class="course__kicker"><span>Experiência digital</span><span>21 dias</span></p>
+                <h4 class="course__title"><a href="https://curarte-habitar-a-si-landingpage.netlify.app" target="_blank" rel="noopener">CURARTE — Habitar a Si</a></h4>
+                <p class="course__desc">Uma travessia de autoconhecimento que combina contemplação, corpo, arte, simbolismo e escrita. Sete Portais conduzem uma experiência íntima para escutar, expressar e integrar o que pede espaço.</p>
+                <ul class="course__facts" role="list">
+                  <li>7 Portais</li>
+                  <li>22 cartas-arquétipo</li>
+                  <li>Yoga, arteterapia e escrita</li>
+                </ul>
+                <a class="course__link" href="https://curarte-habitar-a-si-landingpage.netlify.app" target="_blank" rel="noopener">Viver o CURARTE</a>
+              </div>
+            </article>
+
+            <article class="course" data-category="autoconhecimento" data-search="voltar a si 21 dias mandala mandalas cartas simbólicas simbólicas diário hang drum som audio áudios presença transformação palavra semente">
+              <a class="course__media" href="https://voltar-a-si-21-dias-aya.netlify.app" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+                <img src="assets/img/voltar.jpg" alt="" width="1200" height="800" loading="lazy">
+              </a>
+              <div class="course__body">
+                <p class="course__kicker"><span>Experiência digital</span><span>21 dias</span></p>
+                <h4 class="course__title"><a href="https://voltar-a-si-21-dias-aya.netlify.app" target="_blank" rel="noopener">VOLTAR A SI</a></h4>
+                <p class="course__desc">Para quem cuidou de tudo por tempo demais e deseja voltar a criar espaço para si. Uma experiência diária com escrita, mandalas, cartas simbólicas, práticas e paisagens sonoras que acompanham a travessia.</p>
+                <ul class="course__facts" role="list">
+                  <li>5 Portais</li>
+                  <li>21 cartas</li>
+                  <li>7 experiências sonoras</li>
+                </ul>
+                <a class="course__link" href="https://voltar-a-si-21-dias-aya.netlify.app" target="_blank" rel="noopener">Começar a jornada</a>
+              </div>
+            </article>
+
+            <article class="course" data-category="autoconhecimento" data-search="mapa arquetípico mapa arquetipico guia seu ano 2027 anual trimestral combo amor afetivo relacionamentos profissional saúde autodesenvolvimento tarot arquetipos">
+              <a class="course__media" href="https://landpagemapaarquetipico2027.netlify.app" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+                <img src="assets/img/mapa.jpg" alt="" width="1200" height="800" loading="lazy">
+              </a>
+              <div class="course__body">
+                <p class="course__kicker"><span>Guia 2027</span><span>Autodesenvolvimento</span></p>
+                <h4 class="course__title"><a href="https://landpagemapaarquetipico2027.netlify.app" target="_blank" rel="noopener">Guia do Seu Ano 2027</a></h4>
+                <p class="course__desc">Um mapa arquetípico para observar o ano com mais consciência. Organiza reflexões sobre afetos e relacionamentos, vida profissional e saúde, ajudando você a reconhecer temas, movimentos e possibilidades ao longo de 2027.</p>
+                <ul class="course__facts" role="list">
+                  <li>Mapa anual</li>
+                  <li>Leituras trimestrais</li>
+                  <li>Combo completo</li>
+                </ul>
+                <a class="course__link" href="https://landpagemapaarquetipico2027.netlify.app" target="_blank" rel="noopener">Conhecer o Guia 2027</a>
+              </div>
+            </article>
+
+            <article class="course" data-category="autoconhecimento" data-search="numerologia pessoal mapa numerológico numerologia pitagórica calculadora números nome data nascimento caminho de vida expressão alma personalidade autoconhecimento 10 módulos 30 aulas certificado">
+              <a class="course__media" href="https://landpage-numerologia.netlify.app" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+                <img src="assets/img/numerologia.jpg" alt="" width="1200" height="800" loading="lazy">
+              </a>
+              <div class="course__body">
+                <p class="course__kicker"><span>Curso digital</span><span>Numerologia</span></p>
+                <h4 class="course__title"><a href="https://landpage-numerologia.netlify.app" target="_blank" rel="noopener">Numerologia Pessoal &amp; Mapa de Autoconhecimento</a></h4>
+                <p class="course__desc">Aprenda a construir e interpretar mapas numerológicos com o método pitagórico. Uma jornada de reflexão simbólica com calculadora interativa, exercícios e acompanhamento do seu progresso.</p>
+                <ul class="course__facts" role="list">
+                  <li>10 módulos · 30 aulas</li>
+                  <li>Calculadora e relatório em PDF</li>
+                  <li>Certificado digital</li>
+                </ul>
+                <a class="course__link" href="https://landpage-numerologia.netlify.app" target="_blank" rel="noopener">Conhecer Numerologia AYA</a>
+              </div>
+            </article>
+
+            <article class="course" data-category="autoconhecimento" data-search="entre destino e escolha consciência inconsciente limites cocriação realidade livre arbítrio determinismo jung ramana maharshi amit goswami louise hay joe dispenza sapolsky meditação filosofia neurociência psicologia 52 aulas ebook diário 21 dias certificado">
+              <a class="course__media" href="https://landpage-escolhaoudestino.netlify.app" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+                <img src="assets/img/destino.jpg" alt="" width="1200" height="800" loading="lazy">
+              </a>
+              <div class="course__body">
+                <p class="course__kicker"><span>Curso digital</span><span>Consciência e escolhas</span></p>
+                <h4 class="course__title"><a href="https://landpage-escolhaoudestino.netlify.app" target="_blank" rel="noopener">Entre o Destino e a Escolha</a></h4>
+                <p class="course__desc">Investigue como o inconsciente, as experiências e as crenças influenciam as decisões. Um percurso crítico e contemplativo entre filosofia oriental, psicologia analítica e neurociência.</p>
+                <ul class="course__facts" role="list">
+                  <li>10 módulos · 52 aulas</li>
+                  <li>E-book e diário de 21 dias</li>
+                  <li>Certificado</li>
+                </ul>
+                <a class="course__link" href="https://landpage-escolhaoudestino.netlify.app" target="_blank" rel="noopener">Conhecer o curso</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="group" data-group="equilibrio" aria-labelledby="grupo-equilibrio">
+          <div class="group__head">
+            <div>
+              <h3 class="group__title" id="grupo-equilibrio">Equilíbrio e energia</h3>
+              <p class="group__desc">Práticas e conhecimentos para presença, autocuidado e integração entre corpo, mente e energia.</p>
+            </div>
+            <p class="group__count">4 cursos</p>
+          </div>
+
+          <div class="grid">
+            <article class="course" data-category="equilibrio" data-search="chakras equilíbrio energetico energia sete chakras muladhara svadhisthana manipura anahata vishuddha ajna sahasrara yoga meditação mantras cristais cores aromas radiestesia jornada 21 dias curso digital 17 módulos 150 horas certificado">
+              <a class="course__media" href="https://landpage-chakras.netlify.app" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+                <img src="assets/img/yogaterapia.jpg" alt="" width="1200" height="750" loading="lazy">
+              </a>
+              <div class="course__body">
+                <p class="course__kicker"><span>Curso digital</span><span>150 h.a.</span></p>
+                <h4 class="course__title"><a href="https://landpage-chakras.netlify.app" target="_blank" rel="noopener">Chakras em Equilíbrio Energético</a></h4>
+                <p class="course__desc">Uma jornada guiada pelos sete chakras para compreender símbolos, reconhecer padrões internos e transformar conhecimento em práticas de presença, autocuidado e integração.</p>
+                <ul class="course__facts" role="list">
+                  <li>17 módulos</li>
+                  <li>Jornada de 21 dias</li>
+                  <li>14 bônus e certificado</li>
+                </ul>
+                <a class="course__link" href="https://landpage-chakras.netlify.app" target="_blank" rel="noopener">Conhecer o curso de Chakras</a>
+              </div>
+            </article>
+
+            <article class="course" data-category="equilibrio" data-search="yogaterapia yoga formação saúde integral respiração práticas protocolos certificado 10 módulos">
+              <a class="course__media" href="https://landpageayayogaterapia.netlify.app" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+                <img src="assets/img/yoga-teacher.jpg" alt="" width="1400" height="933" loading="lazy">
+              </a>
+              <div class="course__body">
+                <p class="course__kicker"><span>Formação digital</span><span>10 módulos</span></p>
+                <h4 class="course__title"><a href="https://landpageayayogaterapia.netlify.app" target="_blank" rel="noopener">Formação em Yogaterapia AYA</a></h4>
+                <p class="course__desc">Aprofunde o Yoga como caminho de cuidado integral. Uma formação estruturada com práticas adaptáveis, protocolos, avaliação, segurança e materiais visuais para ampliar repertório e consciência na prática.</p>
+                <ul class="course__facts" role="list">
+                  <li>Protocolos e sequências</li>
+                  <li>Material ilustrado</li>
+                  <li>Quiz e certificado</li>
+                </ul>
+                <a class="course__link" href="https://landpageayayogaterapia.netlify.app" target="_blank" rel="noopener">Conhecer a formação</a>
+              </div>
+            </article>
+
+            <article class="course" data-category="equilibrio" data-search="meditação 30 dias presença ciclos audio áudios diário insights respiração sentir escutar integrar mindfulness">
+              <a class="course__media" href="https://landpagmedita30dias.netlify.app" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+                <img src="assets/img/meditacao.jpg" alt="" width="1200" height="800" loading="lazy">
+              </a>
+              <div class="course__body">
+                <p class="course__kicker"><span>Jornada guiada</span><span>30 dias</span></p>
+                <h4 class="course__title"><a href="https://landpagmedita30dias.netlify.app" target="_blank" rel="noopener">30 Dias de Presença</a></h4>
+                <p class="course__desc">Uma jornada de meditação guiada para desacelerar, perceber e construir uma relação mais consciente consigo. Práticas progressivas com voz natural, respiração, pausas e diário de insights.</p>
+                <ul class="course__facts" role="list">
+                  <li>4 ciclos</li>
+                  <li>30 práticas</li>
+                  <li>Diário de insights</li>
+                </ul>
+                <a class="course__link" href="https://landpagmedita30dias.netlify.app" target="_blank" rel="noopener">Conhecer a jornada</a>
+              </div>
+            </article>
+
+            <article class="course" data-category="equilibrio" data-search="terapia ayurveda ayurvédica ayurvedica doshas vata pitta kapha prakriti vikriti alimentação rotina dinacharya ritucharya yoga meditação autocuidado especiarias curso digital 12 módulos 96 aulas certificado">
+              <a class="course__media" href="https://landpage-ayurvedica.netlify.app" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+                <img src="assets/img/ayurveda.jpg" alt="" width="1200" height="800" loading="lazy">
+              </a>
+              <div class="course__body">
+                <p class="course__kicker"><span>Curso digital</span><span>Ayurveda AYA</span></p>
+                <h4 class="course__title"><a href="https://landpage-ayurvedica.netlify.app" target="_blank" rel="noopener">Terapia Ayurvédica AYA</a></h4>
+                <p class="course__desc">Um guia prático para compreender os princípios do Ayurveda e transformar conhecimento em rotina, alimentação, autocuidado e presença. Uma jornada para estudar Doshas, hábitos, ciclos e aplicação complementar responsável.</p>
+                <ul class="course__facts" role="list">
+                  <li>12 módulos · 96 aulas</li>
+                  <li>Questionário dos Doshas</li>
+                  <li>Avaliação e certificado</li>
+                </ul>
+                <a class="course__link" href="https://landpage-ayurvedica.netlify.app" target="_blank" rel="noopener">Conhecer Terapia Ayurveda</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="group" data-group="formacao" aria-labelledby="grupo-formacao">
+          <div class="group__head">
+            <div>
+              <h3 class="group__title" id="grupo-formacao">Formação prática em terapias integrativas</h3>
+              <p class="group__desc">Cursos voltados à aplicação prática e ao aprofundamento profissional em diferentes abordagens.</p>
+            </div>
+            <p class="group__count">5 cursos</p>
+          </div>
+
+          <div class="grid">
+            <article class="course" data-category="formacao" data-search="radiestesia aplicada pêndulo pendulo gráficos graficos relógios relogios biômetros biometros painéis paineis testemunhos avaliação energética formacao digital 10 módulos kits premium certificado">
+              <a class="course__media" href="https://landpage-radiostesia.netlify.app" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+                <img src="assets/img/radiestesia.jpg" alt="" width="1200" height="1800" loading="lazy">
+              </a>
+              <div class="course__body">
+                <p class="course__kicker"><span>Formação digital</span><span>10 módulos</span></p>
+                <h4 class="course__title"><a href="https://landpage-radiostesia.netlify.app" target="_blank" rel="noopener">Radiestesia Aplicada AYA</a></h4>
+                <p class="course__desc">Uma formação estruturada para aprender pêndulo, testemunhos, gráficos, relógios, biômetros, composição de painéis, atendimento, prática responsável e certificação.</p>
+                <ul class="course__facts" role="list">
+                  <li>Biblioteca de gráficos</li>
+                  <li>7 kits premium</li>
+                  <li>Avaliação e certificado</li>
+                </ul>
+                <a class="course__link" href="https://landpage-radiostesia.netlify.app" target="_blank" rel="noopener">Conhecer Radiestesia Aplicada</a>
+              </div>
+            </article>
+
+            <article class="course" data-category="formacao" data-search="terapia de cristais cristais cristaloterapia quartzo ametista pedras minerais energia propriedades uso terapêutico autocuidado formação curso digital certificado 10 módulos bônus">
+              <a class="course__media" href="https://landpage-cristais.netlify.app" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+                <img src="assets/img/cristais.jpg" alt="" width="1200" height="800" loading="lazy">
+              </a>
+              <div class="course__body">
+                <p class="course__kicker"><span>Curso digital</span><span>Terapia de Cristais</span></p>
+                <h4 class="course__title"><a href="https://landpage-cristais.netlify.app" target="_blank" rel="noopener">Terapia de Cristais AYA</a></h4>
+                <p class="course__desc">Uma formação para conhecer os cristais com mais profundidade e organizar seu uso de forma consciente. Aprenda propriedades tradicionais, formas de cuidado, seleção e possibilidades de aplicação complementar.</p>
+                <ul class="course__facts" role="list">
+                  <li>10 módulos e bônus</li>
+                  <li>Guia prático de cristais</li>
+                  <li>Certificado</li>
+                </ul>
+                <a class="course__link" href="https://landpage-cristais.netlify.app" target="_blank" rel="noopener">Conhecer Terapia de Cristais</a>
+              </div>
+            </article>
+
+            <article class="course" data-category="formacao" data-search="terapia floral florais essências bach saint germain repertórios anamnese formulação raciocínio terapêutico 16 módulos 325 aulas certificado">
+              <a class="course__media" href="https://landpageflorais.netlify.app" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+                <img src="assets/img/florais.jpg" alt="" width="1200" height="800" loading="lazy">
+              </a>
+              <div class="course__body">
+                <p class="course__kicker"><span>Formação digital</span><span>16 módulos</span></p>
+                <h4 class="course__title"><a href="https://landpageflorais.netlify.app" target="_blank" rel="noopener">Curso de Terapia Floral AYA</a></h4>
+                <p class="course__desc">Uma formação completa para conhecer repertórios florais e desenvolver escuta, anamnese, seleção de essências, formulação e acompanhamento terapêutico com clareza e consciência.</p>
+                <ul class="course__facts" role="list">
+                  <li>325 aulas</li>
+                  <li>Kit Clínico AYA</li>
+                  <li>Certificado</li>
+                </ul>
+                <a class="course__link" href="https://landpageflorais.netlify.app" target="_blank" rel="noopener">Conhecer o curso</a>
+              </div>
+            </article>
+
+            <article class="course" data-category="formacao" data-search="laserpuntura laser acupuntura medicina tradicional chinesa mtc auriculoterapia fotobiomodulação aparelho parâmetros clínica 10 modulos">
+              <a class="course__media" href="https://landpage-laserpunturaessencial.netlify.app" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+                <img src="assets/img/hero.jpg" alt="" width="2000" height="1333" loading="lazy">
+              </a>
+              <div class="course__body">
+                <p class="course__kicker"><span>Formação digital</span><span>Laserpuntura</span></p>
+                <h4 class="course__title"><a href="https://landpage-laserpunturaessencial.netlify.app" target="_blank" rel="noopener">Laserpuntura Essencial</a></h4>
+                <p class="course__desc">Da leitura do equipamento à aplicação: organize parâmetros, segurança, localização de pontos e bases da Medicina Tradicional Chinesa para compreender a laserpuntura com clareza e responsabilidade.</p>
+                <ul class="course__facts" role="list">
+                  <li>10 módulos</li>
+                  <li>Atlas e materiais visuais</li>
+                  <li>MTC e segurança</li>
+                </ul>
+                <a class="course__link" href="https://landpage-laserpunturaessencial.netlify.app" target="_blank" rel="noopener">Conhecer o curso</a>
+              </div>
+            </article>
+
+            <article class="course" data-category="formacao" data-search="aya yoga professor aplicativo app planejador de aulas yoga professor instrutor professores sequência posturas contraposturas níveis iniciante intermediário avançado gestantes crianças melhor idade lombar cervical joelho equilíbrio chakras 15 20 30 minutos planejamento aula personalizado">
+              <a class="course__media" href="https://landpage-appyogaprofessoraya.netlify.app" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+                <img src="assets/img/yoga-teacher-2.jpg" alt="" width="1400" height="933" loading="lazy">
+              </a>
+              <div class="course__body">
+                <p class="course__kicker"><span>Aplicativo</span><span>Para professores de Yoga</span></p>
+                <h4 class="course__title"><a href="https://landpage-appyogaprofessoraya.netlify.app" target="_blank" rel="noopener">AYA Yoga Professor — Planejador de Aulas</a></h4>
+                <p class="course__desc">Crie sequências de Yoga personalizadas por nível, público, duração e necessidades de adaptação. Uma ferramenta prática de apoio ao planejamento para ensinar com método e presença.</p>
+                <ul class="course__facts" role="list">
+                  <li>87 posturas e exercícios</li>
+                  <li>Aulas de 15, 20 ou 30 min</li>
+                  <li>Ritmo e contraposturas</li>
+                </ul>
+                <a class="course__link" href="https://landpage-appyogaprofessoraya.netlify.app" target="_blank" rel="noopener">Conhecer o aplicativo</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <div class="empty" id="emptyState" hidden>
+          <p class="empty__title">Nenhum curso encontrado.</p>
+          <p>Tente outra palavra, como “Numerologia”, “Yoga”, “Tarô”, “Chakras” ou “Florais”.</p>
+          <button class="btn btn--ghost" id="resetSearch" type="button">Limpar busca</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="team" id="equipe">
+    <div class="shell">
+      <div class="team__head">
+        <h2 class="display">Quem caminha com você.</h2>
+        <p>Professoras e terapeutas que conduzem as formações AYA, cada uma com seu campo de estudo e prática.</p>
+      </div>
+
+      <ul class="team__grid" role="list">
+        <li class="person">
+          <div class="person__photo">
+            <img src="assets/img/retrato-c.jpg" alt="Retrato de professora da equipe AYA" width="900" height="1350" loading="lazy">
+          </div>
+          <h3 class="person__role">Yoga e Yogaterapia</h3>
+          <p>Prática postural, respiração e adaptações para corpos e momentos diferentes.</p>
+        </li>
+        <li class="person">
+          <div class="person__photo">
+            <img src="assets/img/equipe-3.jpg" alt="Retrato de terapeuta da equipe AYA" width="900" height="1350" loading="lazy">
+          </div>
+          <h3 class="person__role">Terapias florais</h3>
+          <p>Escuta, anamnese e formulação de repertórios com cuidado e clareza.</p>
+        </li>
+        <li class="person">
+          <div class="person__photo">
+            <img src="assets/img/equipe-4.jpg" alt="Retrato de terapeuta da equipe AYA" width="800" height="533" loading="lazy">
+          </div>
+          <h3 class="person__role">Ayurveda e rotinas</h3>
+          <p>Doshas, alimentação e hábitos possíveis dentro da vida real.</p>
+        </li>
+        <li class="person">
+          <div class="person__photo">
+            <img src="assets/img/retrato-d.jpg" alt="Retrato de professora da equipe AYA" width="900" height="1350" loading="lazy">
+          </div>
+          <h3 class="person__role">Tarô e estudos simbólicos</h3>
+          <p>Arquétipos, imagens e leitura consciente como caminho de autoconhecimento.</p>
+        </li>
+      </ul>
+
+      <p class="team__note">Retratos ilustrativos — em breve, as fotos oficiais da equipe.</p>
+    </div>
+  </section>
+
+  <section class="invite">
+    <div class="shell invite__inner">
+      <h2 class="display">Um curso pode ser o começo de um novo movimento.</h2>
+      <div class="invite__actions">
+        <a class="btn btn--solid" href="#cursos">Ver todos os cursos</a>
+        <a class="btn btn--ghost" href="https://wa.me/5541999168655?text=Ol%C3%A1%2C%20quero%20ajuda%20para%20escolher%20um%20curso%20AYA." target="_blank" rel="noopener">Pedir uma indicação</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contato">
+    <div class="shell contact__grid">
+      <div class="contact__copy">
+        <h2 class="display">Fale com a AYA.</h2>
+        <p class="contact__lead">Cursos digitais para todo o Brasil e atendimento presencial em Curitiba. Se tiver dúvida sobre qual caminho combina com o seu momento, fale diretamente conosco.</p>
+
+        <ul class="contact__list" role="list">
+          <li>
+            <span class="contact__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M12 21s7-5.2 7-11a7 7 0 1 0-14 0c0 5.8 7 11 7 11Z" stroke="currentColor" stroke-width="1.4"/><circle cx="12" cy="10" r="2.6" stroke="currentColor" stroke-width="1.4"/></svg>
+            </span>
+            <span>Rua Prof. Raul Pinheiro Machado, 71<br>Bacacheri · Curitiba · PR</span>
+          </li>
+          <li>
+            <span class="contact__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M5 4h4l2 5-2.5 1.5a12 12 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+            </span>
+            <a href="https://wa.me/5541999168655?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20AYA%20Cursos%20Digitais." target="_blank" rel="noopener">WhatsApp (41) 99916-8655</a>
+          </li>
+          <li>
+            <span class="contact__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><rect x="3.5" y="3.5" width="17" height="17" rx="5" stroke="currentColor" stroke-width="1.4"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor"/></svg>
+            </span>
+            <a href="https://www.instagram.com/ayaterapias.integradas/" target="_blank" rel="noopener">@ayaterapias.integradas</a>
+          </li>
+          <li>
+            <span class="contact__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.4"/><path d="M3.5 12h17M12 3.5c2.3 2.4 3.5 5.4 3.5 8.5S14.3 18.1 12 20.5c-2.3-2.4-3.5-5.4-3.5-8.5S9.7 5.9 12 3.5Z" stroke="currentColor" stroke-width="1.4"/></svg>
+            </span>
+            <a href="https://ayacursos.com.br" target="_blank" rel="noopener">www.ayacursos.com.br</a>
+          </li>
+        </ul>
+      </div>
+
+      <aside class="contact__seal" aria-label="AYA Terapias Integradas">
+        <svg viewBox="0 0 100 100" fill="none" aria-hidden="true">
+          <path d="M50 76C50 58 51 40 50 20c-9 12-16 25-13 38 2 9 6 14 13 18Z" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M50 76c6-18 15-31 28-43 0 17-7 33-28 43Z" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M50 76c-6-18-15-31-28-43 0 17 7 33 28 43Z" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M50 76c13-8 26-11 39-11-7 13-21 20-39 11Z" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M50 76c-13-8-26-11-39-11 7 13 21 20 39 11Z" stroke="currentColor" stroke-width="1.5"/>
+        </svg>
+        <p class="contact__seal-name">AYA</p>
+        <p class="contact__seal-sub">Terapias integradas<br>Curitiba · Paraná</p>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="shell">
+    <div class="site-footer__grid">
+      <div>
+        <p class="site-footer__brand">AYA Cursos Digitais</p>
+        <p class="site-footer__line">Conhecimento, presença e transformação — no seu tempo, onde você estiver.</p>
+      </div>
+      <div>
+        <p class="site-footer__label">Navegar</p>
+        <ul class="site-footer__nav" role="list">
+          <li><a href="#cursos">Cursos</a></li>
+          <li><a href="#experiencia">A experiência</a></li>
+          <li><a href="#equipe">Equipe</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="site-footer__label">AYA Terapias Integradas</p>
+        <p class="site-footer__line">Rua Prof. Raul Pinheiro Machado, 71<br>Bacacheri · Curitiba · PR</p>
+        <p class="site-footer__line"><a href="https://wa.me/5541999168655" target="_blank" rel="noopener">WhatsApp (41) 99916-8655</a><br><a href="https://www.instagram.com/ayaterapias.integradas/" target="_blank" rel="noopener">@ayaterapias.integradas</a></p>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      <p>© <span id="year">2026</span> AYA Terapias Integradas. Todos os direitos reservados.</p>
+      <p>AYA Cursos Online 100% Digital · Curitiba, Paraná</p>
+    </div>
+  </div>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/5541999168655?text=Ol%C3%A1%2C%20vim%20pelo%20site%20AYA%20Cursos%20Digitais." target="_blank" rel="noopener" aria-label="Falar com a AYA no WhatsApp">
+  <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+    <path d="M20 11.8a8 8 0 0 1-11.7 7.1L4 20l1.2-4.2A8 8 0 1 1 20 11.8Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+    <path d="M9 8.6c.4.8 1 1.9 1.9 2.8.9.9 2 1.5 2.8 1.9.6.3 1.4-.2 1.7-.7.2-.3.1-.6-.1-.8l-1.1-.8c-.3-.2-.6-.1-.8.1l-.4.4a6.5 6.5 0 0 1-2.2-2.2l.4-.4c.2-.2.3-.5.1-.8l-.8-1.1c-.2-.3-.5-.4-.8-.2-.4.2-.9 1-.7 1.8Z" fill="currentColor"/>
+  </svg>
+</a>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
